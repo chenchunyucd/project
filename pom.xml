@@ -9,6 +9,7 @@
     <description>购物网站模板</description>
     <modules>
         <module>website-temp-web</module>
+        <module>website-temp-index</module>
     </modules>
 
     <properties>
