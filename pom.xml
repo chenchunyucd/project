@@ -9,7 +9,11 @@
     <description>购物网站模板</description>
     <modules>
         <module>website-temp-web</module>
-        <module>website-temp-index</module>
+        <module>website-temp-domain</module>
+        <module>website-temp-service</module>
+        <module>website-temp-dao</module>
+        <module>website-temp-man</module>
+        <module>website-temp-rpc</module>
     </modules>
 
     <properties>
@@ -21,6 +25,12 @@
 
     <!--<dependencyManagement>-->
     <dependencies>
+        <dependency>
+            <groupId>ccy.work.project</groupId>
+            <artifactId>website-temp-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
