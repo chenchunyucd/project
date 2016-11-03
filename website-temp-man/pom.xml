@@ -18,4 +18,42 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+    <profiles>
+        <!-- 开发环境 -->
+        <profile>
+            <id>development</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <filters>
+                    <filter>src/main/resources/properties/development.properties</filter>
+                </filters>
+            </build>
+        </profile>
+
+        <!-- 测试环境 -->
+        <profile>
+            <id>test</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <filters>
+                    <filter>src/main/resources/properties/test.properties</filter>
+                </filters>
+            </build>
+        </profile>
+
+        <!-- 生产环境 -->
+        <profile>
+            <id>production</id>
+            <build>
+                <filters>
+                    <filter>src/main/resources/properties/production.properties</filter>
+                </filters>
+            </build>
+        </profile>
+    </profiles>
 </project>
