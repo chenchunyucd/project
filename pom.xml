@@ -1,14 +1,14 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.jd.ka.vsp</groupId>
-    <artifactId>xxx</artifactId>
+    <groupId>ccy.work.project</groupId>
+    <artifactId>project-temp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name></name>
     <description>购物网站模板</description>
     <modules>
-        <module>web-site-temp</module>
+        <module>website-temp-web</module>
     </modules>
 
     <properties>
