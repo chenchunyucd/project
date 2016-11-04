@@ -7,14 +7,7 @@
     <packaging>pom</packaging>
     <name></name>
     <description>购物网站模板</description>
-    <modules>
-        <module>website-temp-web</module>
-        <module>website-temp-domain</module>
-        <module>website-temp-service</module>
-        <module>website-temp-dao</module>
-        <module>website-temp-man</module>
-        <module>website-temp-rpc</module>
-    </modules>
+
 
     <properties>
         <spring.framework.version>3.1.4.RELEASE</spring.framework.version>
@@ -25,11 +18,7 @@
 
     <!--<dependencyManagement>-->
     <dependencies>
-        <dependency>
-            <groupId>ccy.work.project</groupId>
-            <artifactId>website-temp-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
 
         <!--spring mvc -->
         <dependency>
