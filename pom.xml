@@ -11,6 +11,7 @@
         <module>project-service</module>
         <module>project-man</module>
         <module>project-web</module>
+        <module>project-test</module>
     </modules>
     <packaging>pom</packaging>
     <name></name>
