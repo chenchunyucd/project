@@ -31,6 +31,7 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!--spring mvc -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
@@ -77,6 +78,8 @@
             <version>${spring.framework.version}</version>
             <scope>test</scope>
         </dependency>
+        <!--spring mvc-->
+
         <dependency>
             <groupId>com.googlecode.jmockit</groupId>
             <artifactId>jmockit</artifactId>
